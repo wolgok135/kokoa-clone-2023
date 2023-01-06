@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Kokoa Clone</title>
-    
-
   </head>
   <body>
     <div class="status-bar">
@@ -18,7 +16,7 @@
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      
+
       <div class="status-bar__column">
         <span>110%</span>
         <!-- Batery Icon-->
@@ -26,7 +24,6 @@
         <!-- Lightening Icon-->
         <i class="fa-solid fa-bolt"></i>
       </div>
-      
     </div>
 
     <header class="welcome-header">
@@ -36,15 +33,19 @@
       </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="Log in" />
-        <a href=""#">Find Kokoa Account or Password</a>"
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        type="text"
+        required
+        placeholder="Email or phone number"
+      />
+      <input name="password" type="password" required placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
 
-    
-<!--font awesome icon kit 추가 script-->
+    <!--font awesome icon kit 추가 script-->
     <script
       src="https://kit.fontawesome.com/ef2d9ee802.js"
       crossorigin="anonymous"
